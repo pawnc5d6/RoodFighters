@@ -1,3 +1,7 @@
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 import os
 import sys
 import random
@@ -13,13 +17,10 @@ from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID
-
-
 ##############
 ##############
 ##############
 ##############
-
 a = API_ID
 b = API_HASH
 smex = STRING01
@@ -52,7 +53,10 @@ twentyseven = STRING27
 twentyeight = STRING28
 twentynine = STRING29
 thirty = STRING30
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 str1 = ""
 str2 = ""
 str3 = ""
@@ -83,26 +87,23 @@ str27 = ""
 str28 = ""
 str29 = ""
 str30 = ""
-
-
-
-##############
-##############
-##############
-##############
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 que = {}
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 SMEX_USERS = [658876201, 2092103173, 5138767016]
 for x in SUDO:
     SMEX_USERS.append(x)
-    
-##############
-##############
-##############
-##############    
-    
-async def start_yukki():
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################    
+async def start_roodowner():
     global str1
     global str2
     global str3
@@ -133,6 +134,10 @@ async def start_yukki():
     global str28
     global str29
     global str30
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################    
     if smex:
         session_name = str(smex)
         print("String 1 Found")
@@ -141,8 +146,8 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await str1.start()
             botme = await str1.get_me()
-            await str1(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str1(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str1(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str1(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -157,7 +162,10 @@ async def start_yukki():
             await str1.start()
         except Exception as e:
             pass
-   
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if smexx:
         session_name = str(smexx)
         print("String 2 Found")
@@ -165,8 +173,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await str2.start()
-            await str2(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str2(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str2(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str2(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str2.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -182,7 +190,10 @@ async def start_yukki():
             await str2.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if smexxx:
         session_name = str(smexxx)
         print("String 3 Found")
@@ -190,8 +201,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await  str3.start()
-            await str3(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str3(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str3(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str3(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str3.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -207,7 +218,10 @@ async def start_yukki():
             await str3.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if smexxxx:
         session_name = str(smexxxx)
         print("String 4 Found")
@@ -215,8 +229,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 4")
             await str4.start()
-            await str4(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str4(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str4(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str4(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str4.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -232,7 +246,10 @@ async def start_yukki():
             await str4.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if smexxxxx:
         session_name = str(smexxxxx)
         print("String 5 Found")
@@ -240,8 +257,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await str5.start()
-            await str5(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str5(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str5(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str5(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str5.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -257,7 +274,10 @@ async def start_yukki():
             await str5.start()
         except Exception as e:
             pass
-                  
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if sixth:
         session_name = str(sixth)
         print("String 6 Found")
@@ -265,8 +285,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await str6.start()
-            await str6(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str6(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str6(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str6(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str6.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -282,7 +302,10 @@ async def start_yukki():
             await str6.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if seven:
         session_name = str(seven)
         print("String 7 Found")
@@ -290,8 +313,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await str7.start()
-            await str7(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str7(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str7(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str7(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str7.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -306,9 +329,11 @@ async def start_yukki():
         try:
             await str7.start()
         except Exception as e:
-            pass    
-        
-    
+            pass  
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if eight:
         session_name = str(eight)
         print("String 8 Found")
@@ -316,8 +341,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await str8.start()
-            await str8(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str8(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str8(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str8(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str8.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -333,7 +358,10 @@ async def start_yukki():
             await str8.start()
         except Exception as e:
             pass   
-        
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if ninth:
         session_name = str(ninth)
         print("String 9 Found")
@@ -341,8 +369,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await str10.start()
-            await str10(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str10(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str10(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str10(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str10.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -358,8 +386,10 @@ async def start_yukki():
             await str10.start()
         except Exception as e:
             pass   
-    
-  
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if tenth:
         session_name = str(tenth)
         print("String 10 Found")
@@ -367,8 +397,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await str9.start()
-            await str9(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str9(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str9(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str9(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str9.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -384,6 +414,10 @@ async def start_yukki():
             await str9.start()
         except Exception as e:
             pass 
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if eleventh:
         session_name = str(eleventh)
         print("String 11 Found")
@@ -392,8 +426,8 @@ async def start_yukki():
             print("Booting Up The Client 11")
             await str11.start()
             botme = await str11.get_me()
-            await str11(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str11(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str11(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str11(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -408,7 +442,10 @@ async def start_yukki():
             await str11.start()
         except Exception as e:
             pass
-   
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twelve:
         session_name = str(twelve)
         print("String 12 Found")
@@ -416,8 +453,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await str12.start()
-            await str12(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str12(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str12(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str12(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str12.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -433,7 +470,10 @@ async def start_yukki():
             await str12.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if thirteen:
         session_name = str(thirteen)
         print("String 13 Found")
@@ -441,8 +481,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await  str13.start()
-            await str13(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str13(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str13(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str13(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str13.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -458,7 +498,10 @@ async def start_yukki():
             await str13.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if fourteen:
         session_name = str(fourteen)
         print("String 14 Found")
@@ -466,8 +509,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 14")
             await str14.start()
-            await str14(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str14(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str14(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str14(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str14.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -483,7 +526,10 @@ async def start_yukki():
             await str14.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if fifteen:
         session_name = str(fifteen)
         print("String 15 Found")
@@ -491,8 +537,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await str15.start()
-            await str15(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str15(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str15(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str15(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str15.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -508,7 +554,10 @@ async def start_yukki():
             await str15.start()
         except Exception as e:
             pass
-                  
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if sixteen:
         session_name = str(sixteen)
         print("String 16 Found")
@@ -516,8 +565,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 16")
             await str16.start()
-            await str16(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str16(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str16(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str16(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str16.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -533,7 +582,10 @@ async def start_yukki():
             await str16.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if seventeen:
         session_name = str(seventeen)
         print("String 17 Found")
@@ -541,8 +593,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 17")
             await str17.start()
-            await str17(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str17(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str17(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str17(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str17.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -558,8 +610,10 @@ async def start_yukki():
             await str17.start()
         except Exception as e:
             pass    
-        
-    
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if eighteen:
         session_name = str(eighteen)
         print("String 18 Found")
@@ -567,8 +621,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 18")
             await str18.start()
-            await str18(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str18(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str18(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str18(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str18.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -584,7 +638,10 @@ async def start_yukki():
             await str18.start()
         except Exception as e:
             pass   
-        
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if nineteen:
         session_name = str(nineteen)
         print("String 19 Found")
@@ -592,8 +649,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 19")
             await str19.start()
-            await str19(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str19(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str19(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str19(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str19.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -609,9 +666,10 @@ async def start_yukki():
             await str19.start()
         except Exception as e:
             pass   
-        
-    
-  
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twenty:
         session_name = str(twenty)
         print("String 20 Found")
@@ -619,8 +677,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 20")
             await str20.start()
-            await str20(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str20(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str20(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str20(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str20.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -636,8 +694,10 @@ async def start_yukki():
             await str20.start()
         except Exception as e:
             pass   
-        
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twentyone:
         session_name = str(twentyone)
         print("String 21 Found")
@@ -646,8 +706,8 @@ async def start_yukki():
             print("Booting Up The Client 21")
             await str21.start()
             botme = await str21.get_me()
-            await str21(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str21(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str21(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str21(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -662,7 +722,10 @@ async def start_yukki():
             await str21.start()
         except Exception as e:
             pass
-   
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twentytwo:
         session_name = str(twentytwo)
         print("String 22 Found")
@@ -670,8 +733,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 22")
             await str22.start()
-            await str22(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str22(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str22(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str22(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str22.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -687,7 +750,10 @@ async def start_yukki():
             await str22.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twentythree:
         session_name = str(twentythree)
         print("String 23 Found")
@@ -695,8 +761,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 23")
             await  str23.start()
-            await str23(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str23(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str23(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str23(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str23.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -712,7 +778,10 @@ async def start_yukki():
             await str23.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twentyfour:
         session_name = str(twentyfour)
         print("String 24 Found")
@@ -720,8 +789,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 24")
             await str24.start()
-            await str24(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str24(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str24(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str24(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str24.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -737,7 +806,10 @@ async def start_yukki():
             await str24.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twentyfive:
         session_name = str(twentyfive)
         print("String 25 Found")
@@ -745,8 +817,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 25")
             await str25.start()
-            await str25(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str25(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str25(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str25(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str25.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -762,7 +834,10 @@ async def start_yukki():
             await str25.start()
         except Exception as e:
             pass
-                  
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twentysix:
         session_name = str(twentysix)
         print("String 26 Found")
@@ -770,8 +845,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 26")
             await str26.start()
-            await str26(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str26(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str26(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str26(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str26.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -787,7 +862,10 @@ async def start_yukki():
             await str26.start()
         except Exception as e:
             pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
     if twentyseven:
         session_name = str(twentyseven)
         print("String 27 Found")
@@ -795,8 +873,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 27")
             await str27.start()
-            await str27(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str27(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str27(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str27(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str27.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -811,9 +889,11 @@ async def start_yukki():
         try:
             await str27.start()
         except Exception as e:
-            pass    
-        
-    
+            pass 
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################            
     if twentyeight:
         session_name = str(twentyeight)
         print("String 28 Found")
@@ -821,8 +901,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 28")
             await str28.start()
-            await str28(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str28(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str28(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str28(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str28.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -838,7 +918,10 @@ async def start_yukki():
             await str28.start()
         except Exception as e:
             pass   
-        
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################            
     if twentynine:
         session_name = str(twentynine)
         print("String 29 Found")
@@ -846,8 +929,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 29")
             await str29.start()
-            await str29(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str29(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str29(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str29(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str29.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -863,9 +946,10 @@ async def start_yukki():
             await str29.start()
         except Exception as e:
             pass   
-        
-    
-  
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################            
     if thirty:
         session_name = str(thirty)
         print("String 30 Found")
@@ -873,8 +957,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 30")
             await str30.start()
-            await str30(functions.channels.JoinChannelRequest(channel="@QNROTUSCHAT"))
-            await str30(functions.channels.JoinChannelRequest(channel="@QNR_OTUS"))
+            await str30(functions.channels.JoinChannelRequest(channel="@RoodSpamArmy"))
+            await str30(functions.channels.JoinChannelRequest(channel="@RoodFighters"))
             botme = await str30.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -890,12 +974,12 @@ async def start_yukki():
             await str30.start()
         except Exception as e:
             pass 
-
-
-
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_yukki())       
+loop.run_until_complete(start_roodowner())       
 
 async def gifspam(e, smex):
     try:
@@ -911,56 +995,10 @@ async def gifspam(e, smex):
         )
     except Exception as e:
         pass
-
-       
-############## 
-##############
-##############
-##############
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-async def ping(e):
-    if e.sender_id in SMEX_USERS:
-        start = datetime.now()
-        text = "🤖 I Am Still alive Lomdike !!!!\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄"
-        event = await e.reply(text, parse_mode=None, link_preview=None )
-        end = datetime.now()
-        ms = (end-start).microseconds / 1000
-        await event.edit(f"🤖 I Am Still alive Lomdike !!!!\n`{ms}` 𝗺𝘀\n•[×] 〄 ╚» ⟦★𓆩ᏒⲞⲞᗪ𓆪★⟧«╝ SᑭᗩᗰᗷOT 〄")
-        
-##############
-##############
-##############
-##############        
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.join"))
@@ -992,21 +1030,24 @@ async def ping(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.join"))       
 async def _(e):
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗝𝗼𝗶𝗻×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.join <Public Channel or Group Link/Username>"
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗝𝗼𝗶𝗻×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
-            bc = yukki[0]
-            text = "𝙹𝙾𝙸𝙽𝙸𝙽𝙶..."
+            bc = roodowner[0]
+            text = "J𝙾𝙸𝙽𝙸𝙽𝙶..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝚂𝚄𝙲𝙲𝙴𝚂𝙵𝚄𝙻𝙻𝚈 𝙹𝙾𝙸𝙽𝙴𝙳 !!!\n•[×] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄")
+                await event.edit("S𝚄𝙲𝙲𝙴𝚂𝙵𝚄𝙻𝙻𝚈 J𝙾𝙸𝙽𝙴𝙳 !!!\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄")
             except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-            
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################             
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
@@ -1038,22 +1079,24 @@ async def _(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))        
 async def _(e):
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
-            bc = yukki[0]
-            text = "Joining...."
+            bc = roodowner[0]
+            text = "J𝙾𝙸𝙽𝙸𝙽𝙶...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("𝚂𝚄𝙲𝙲𝙴𝚂𝙵𝚄𝙻𝙻𝚈 𝙹𝙾𝙸𝙽𝙴𝙳 !!!\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄")
+                await event.edit("S𝚄𝙲𝙲𝙴𝚂𝙵𝚄𝙻𝙻𝚈 J𝙾𝙸𝙽𝙴𝙳 !!!\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄")
             except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-            
-        
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################        
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
@@ -1085,25 +1128,25 @@ async def _(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.leave"))       
 async def _(e):
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗟𝗲𝗮𝘃𝗲×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.leave <Channel or Chat ID>"
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗟𝗲𝗮𝘃𝗲×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
-            bc = yukki[0]
+            bc = roodowner[0]
             bc = int(bc)
-            text = "𝙻𝙴𝙰𝚅𝙸𝙽𝙶....."
+            text = "L𝙴𝙰𝚅𝙸𝙽𝙶....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙻𝙴𝙵𝚃 !!\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄")
+                await event.edit("S𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 L𝙴𝙵𝚃 !!\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄")
             except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-            
-                
-        
-        
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1135,21 +1178,21 @@ async def _(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 async def spam(e):
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(yukki) == 2:
-            message = str(yukki[1])
-            counter = int(yukki[0])
+        if len(roodowner) == 2:
+            message = str(roodowner[1])
+            counter = int(roodowner[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None )
             await asyncio.wait([e.respond(message) for i in range(counter)])
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(yukki[0])
+            counter = int(roodowner[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None )
             for _ in range(counter):
@@ -1157,14 +1200,16 @@ async def spam(e):
                 await gifspam(e, smex)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(yukki[0])
+            counter = int(roodowner[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None )
             await asyncio.wait([e.respond(message) for i in range(counter)])
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-            
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
@@ -1196,17 +1241,17 @@ async def spam(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 async def spam(e):
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         smex = await e.get_reply_message()
-        yukki = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-        yukkisexy = yukki[1:]
-        if len(yukkisexy) == 2:
-            message = str(yukkisexy[1])
-            counter = int(yukkisexy[0])
-            sleeptime = float(yukki[0])
+        roodowner = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+        roodownersexy = roodowner[1:]
+        if len(roodownersexy) == 2:
+            message = str(roodownersexy[1])
+            counter = int(roodownersexy[0])
+            sleeptime = float(roodowner[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -1215,8 +1260,8 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(yukkisexy[0])
-            sleeptime = float(yukki[0])
+            counter = int(roodownersexy[0])
+            sleeptime = float(roodowner[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -1224,16 +1269,18 @@ async def spam(e):
                 await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(yukkisexy[0])
-            sleeptime = float(yukki[0])
+            counter = int(roodownersexy[0])
+            sleeptime = float(roodowner[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
@@ -1265,15 +1312,15 @@ async def spam(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 async def spam(e):
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗕𝗶𝗴𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗕𝗶𝗴𝗦𝗽𝗮𝗺×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(yukki) == 2:
-            message = str(yukki[1])
-            counter = int(yukki[0])
+        if len(roodowner) == 2:
+            message = str(roodowner[1])
+            counter = int(roodowner[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -1282,7 +1329,7 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(0.0)
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(yukki[0])
+            counter = int(roodowner[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -1290,15 +1337,17 @@ async def spam(e):
                 await asyncio.sleep(0.0)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(yukki[0])
+            counter = int(roodowner[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(0.0)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
@@ -1330,20 +1379,20 @@ async def spam(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗥𝗮𝗶𝗱×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗥𝗮𝗶𝗱×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(yukki) == 2:
-            message = str(yukki[1])
+        if len(roodowner) == 2:
+            message = str(roodowner[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(yukki[0])
+            counter = int(roodowner[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -1355,7 +1404,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(yukki[0])
+            counter = int(roodowner[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -1365,10 +1414,10 @@ async def spam(e):
                     await asyncio.sleep(0.0)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-
-
-
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True))
 @str2.on(events.NewMessage(incoming=True))
 @str3.on(events.NewMessage(incoming=True))
@@ -1405,15 +1454,17 @@ async def _(event):
     if not queue:
         return
     async with event.client.action(event.chat_id, "typing"):
-        await asyncio.sleep(0.0)
+        await asyncio.sleep(0.3)
     async with event.client.action(event.chat_id, "typing"):
         await event.client.send_message(
             entity=event.chat_id,
             message="""{}""".format(random.choice(RRAID)),
             reply_to=event.message.id,
         )           
-            
-            
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################        
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
@@ -1446,21 +1497,21 @@ async def _(event):
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 async def _(e):
     global que
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱×××】\n\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>"
+    usage = "〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱×××】\n\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(yukki[0])
+            message = str(roodowner[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "ᖇEᑭᒪY ᖇᗩIᗪ [ᗩᑕTIᐯᗩTEᗪ]!!\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄"
+            text = "ᖇEᑭᒪY ᖇᗩIᗪ [ᗩᑕTIᐯᗩTEᗪ]!!\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1470,12 +1521,14 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "ᖇEᑭᒪY ᖇᗩIᗪ [ᗩᑕTIᐯᗩTEᗪ]!!\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄"
+            text = "ᖇEᑭᒪY ᖇᗩIᗪ [ᗩᑕTIᐯᗩTEᗪ]!!\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-
-            
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @str3.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
@@ -1508,14 +1561,14 @@ async def _(e):
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 async def _(e):
     global que
-    usage = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱×××】\n【﻿Command :】\n\n.dreplyraid <Username of User>\n\n.dreplyraid <reply to a User>"
+    usage = "〄 ╚» 𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄\n\n【﻿×××𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱×××】\n【﻿Command :】\n\n.dreplyraid <Username of User>\n\n.dreplyraid <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        roodowner = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 12:
-            message = str(yukki[0])
+            message = str(roodowner[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
@@ -1523,7 +1576,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝚁𝙰𝙽𝙳𝙸 𝙺𝙸 𝙲𝙷𝚄𝙳𝙰𝙸 𝙳𝙾𝙽𝙴!!\nᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄"
+            text = "R𝙰𝙽𝙳𝙸 K𝙸 C𝙷𝚄𝙳𝙰𝙸 D𝙾𝙽𝙴!!\nᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1534,12 +1587,61 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝚁𝙰𝙽𝙳𝙸 𝙺𝙸 𝙲𝙷𝚄𝙳𝙰𝙸 𝙳𝙾𝙽𝙴!!\nᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄"
+            text = "R𝙰𝙽𝙳𝙸 K𝙸 C𝙷𝚄𝙳𝙰𝙸 D𝙾𝙽𝙴!!\nᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
     
        
+############## 
+##############
+##############
+##############
+@str1.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str2.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str3.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str4.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str5.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str6.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str7.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str8.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str9.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str10.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str11.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str12.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str13.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str14.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str15.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str16.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str17.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str18.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str19.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str20.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str21.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str22.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str23.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str24.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str25.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str26.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str27.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str28.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str29.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@str30.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+async def ping(e):
+if e.sender_id in SMEX_USERS:
+        start = datetime.now()
+        text = "🤖 I Aᴍ Sᴛɪʟʟ Aʟɪᴠᴇ !!!!\n•[][] 〄 ╚»⟦𓆩ᏒⲞⲞD𓆪⟧«╝ SᑭᗩᗰᗷOT 〄"
+        event = await e.reply(text, parse_mode=None, link_preview=None )
+        end = datetime.now()
+        ms = (end-start).microseconds / 1000
+        await event.edit(f"🤖 I Aᴍ Sᴛɪʟʟ Aʟɪᴠᴇ !!!!\n`{ms}` 𝗺𝘀\n•[][] 〄 ╚»⟦𓆩ᏒⲞⲞD𓆪⟧«╝ SᑭᗩᗰᗷOT 〄")
+        
+        
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################       
+        
 
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @str2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -1574,83 +1676,37 @@ async def _(e):
 async def alive(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "🤖 I Am Still alive Lomdike !!!!\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄"
+        text = "🤖 I Aᴍ Sᴛɪʟʟ Aʟɪᴠᴇ !!!!\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🤖 I Am Still alive Lomdike !!!!\n`{ms}` 𝗺𝘀\n•[][] 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄")
-
-##############
-##############
-##############
-##############
-
-@str1.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str2.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str3.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str4.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str5.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str6.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str7.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str8.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str9.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str10.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str11.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str12.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str13.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str14.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str15.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str16.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str17.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str18.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str19.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str20.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str21.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str22.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str23.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str24.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str25.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str26.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str27.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str28.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str29.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-@str30.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
-async def hang(e):
-    if e.sender_id in SMEX_USERS:	
-       text = "®️꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⭕꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⭕꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰😈꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰🇮🇳꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟"
-       await e.reply(text, parse_mode=None, link_preview=None )        
-        
-##############
-##############
-##############
-##############
-
+        await event.edit(f"🤖 I Aᴍ Sᴛɪʟʟ Aʟɪᴠᴇ !!!!\n`{ms}` 𝗺𝘀\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄")
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n༒ᗩᒪIᐯE\n༒ᑭIᑎG\n༒ᖇESTᗩᖇT\n༒ᒍOIᑎ\n༒ᒪEᗩᐯE\n༒ᑭᒍOIᑎ\n༒Sᑭᗩᗰ\n༒ᗷIGSᑭᗩᗰ\n༒ᗪEᒪᗩYSᑭᗩᗰ\n༒ᖇᗩIᗪ\n༒ᖇEᑭᒪYᖇᗩIᗪ\n༒ᕼᗩᑎG\n༒ᖇEᑭO"
+       text = "〄 ╚»⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n\n🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n༒`.alive`\n༒`.ping`\n༒`.restart`\n༒`.join`\n༒`.leave`\n༒`.pjoin`\n༒`.spam`\n༒`.bigspam`\n༒`.delayspam`\n༒`.raid`\n༒`.replyraid`\n༒`.dreplyraid`\n༒`.repo`"
        await e.reply(text, parse_mode=None, link_preview=None )
-       
-##############
-##############
-##############
-##############
-       
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
 async def repo(e):
     if e.sender_id in SMEX_USERS:
-       text = "〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n┏━━━━━━━━━━━━━━━━━━━\n┣➣ Sᴜᴘᴘᴏʀᴛ : [ᒍOIᑎ] @TeamRoodChat\n┣➣ Cʀᴇᴀᴛᴇʀ : [ᖇOOᗪ OᗯᑎEᖇ] @Rood_Gamer_Owner)\n┣➣ Rᴇᴩᴏ : [TYᑭE] OC PRIVATE\n┗━━━━━━━━━━━━━━━━━━━"
+       text = "〄 ╚»⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄\n┏━━━━━━━━━━━━━━━━━━━\n┣➣ Sᴜᴘᴘᴏʀᴛ : [ᒍOIᑎ] @TeamRoodChat\n┣➣ Cʀᴇᴀᴛᴇʀ : [ᖇOOᗪ OᗯᑎEᖇ] @Rood_Gamer_Owner)\n┣➣ Rᴇᴩᴏ : [TYᑭE] OC PRIVATE\n┗━━━━━━━━━━━━━━━━━━━"
        await e.reply(text, parse_mode=None, link_preview=None )
-    
-##############
-##############
-##############
-##############
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################    
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "【﻿ＲＥＳＴＡＲＴＩＮＧ】!!!\nPʟᴇᴀꜱᴇ Wᴀɪᴛ Tɪʟʟ lᴛ Rᴇʙᴏᴏᴛꜱ..."
+        text = "【﻿ＲＥＳＴＡＲＴＩＮＧ】!!!\nPʟᴇᴀꜱᴇ Wᴀɪᴛ Tɪʟʟ lᴛ Rᴇʙᴏᴏᴛꜱ...\n•[][] 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await str1.disconnect()
@@ -1775,17 +1831,25 @@ async def restart(e):
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
         
-
-text = """SPAM REPO BY @ROODCLAN MADE WITH LOVE"""
-
+        
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################       
+text = """ ====== 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄 ====== """
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################       
 print(text)
 print("")
-print("DONE! 〄 ╚» ⟦𓆩ᏒⲞⲞᗪ𓆪⟧«╝ SᑭᗩᗰᗷOT 〄 STARTED.\nNOW ADD YOUR SPAMMERBOT IN ONE GROUP THEM TYPE .alive With Sudo Account")
+print("DONE! 〄 ╚»𓆩⟦ᏒⲞⲞD⟧𓆪«╝ SᑭᗩᗰᗷOT 〄 STARTED.\nNOW ADD YOUR SPAMMERBOT IN ONE GROUP THEM TYPE .alive With Sudo Account")
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################       
+        
 
-##############
-##############
-##############
-##############
 if len(sys.argv) not in (1, 3, 4):
     try:
         str1.disconnect()
@@ -2028,4 +2092,7 @@ else:
         str30.run_until_disconnected()
     except Exception as e:
         pass
-
+###################################################################################
+###################################################################################
+###################################################################################
+###################################################################################
